@@ -1,3 +1,4 @@
+
 import json
 from sys import argv
 def main():
@@ -11,7 +12,11 @@ def main():
     users = users[0:15]
     formattedUsers = []
     for k in range(0, len(users)):
-        formattedUsers.append("top " +str(k) + ": https://profile.intra.42.fr/users/" + users[k].get('login') + " lvl = " + str(round(users[k].get('lvl'), 2))  + "\n")
+        placeGuys = ""
+        for i in users[k].get('users'):
+            placeGuys += "https://profile.intra.42.fr/users/" + i + "\n"
+        placeGuys = placeGuys[0:-1]
+        formattedUsers.append("top-%s c lvl - %s:\n%s" %(str(k), str(round(users[k].get('lvl'), 2)), placeGuys))
     for i in formattedUsers:
         print(i)
 if __name__ == "__main__":

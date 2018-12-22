@@ -35,7 +35,7 @@ class Intra42:
                         endpoint += ','
         data = self.getData(endpoint)
         return (data)
-    def cursus_users(self, page=None, cursus_id="1", getPage = None, pageSize = 100, filterBy = None, filterVal = None):
+    def cursus_users(self, page=None, cursus_id="1", getPage = None, pageSize = 100, filterBy = None,filterVal = None):
         endpoint = self.URL + "v2/cursus_users"+"?cursus_id=" + cursus_id
         if filter and filterVal:
             endpoint += "&filter[%s]=%s"%(filterBy,filterVal)
@@ -56,4 +56,15 @@ class Intra42:
         if filter and filterVal:
             endpoint += "?filter[%s]=%s"%(filterBy,filterVal)
         data = self.getData(endpoint)
-        return(data)        
+        return(data)
+    def sortUsersByRaiting(self,raiting):
+        raiting = sorted(raiting, key=lambda x: -x['lvl'])
+        k = 0
+        sortedRaiting = [{"users":[raiting[0].get("login")],"lvl":raiting[0].get("lvl")}]
+        for i in raiting:
+            if i.get("lvl") == sortedRaiting[k].get("lvl") and i.get("login") not in sortedRaiting[k].get("users"):
+                    sortedRaiting[k].get("users").append(i.get("login"))
+            elif i.get("login") not in sortedRaiting[k].get("users"):
+                k += 1
+                sortedRaiting.append({"users":[i.get("login")],"lvl":i.get("lvl")})
+        return(sortedRaiting)
