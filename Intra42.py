@@ -57,7 +57,8 @@ class Intra42:
             endpoint += "?filter[%s]=%s"%(filterBy,filterVal)
         data = self.getData(endpoint)
         return(data)
-    def sortUsersByRaiting(self,raiting):
+
+    def sortUsersByRaiting(self, raiting, addBeforeAfter = False):
         raiting = sorted(raiting, key=lambda x: -x['lvl'])
         k = 0
         sortedRaiting = [{"users":[raiting[0].get("login")],"lvl":raiting[0].get("lvl")}]
@@ -67,4 +68,18 @@ class Intra42:
             elif i.get("login") not in sortedRaiting[k].get("users"):
                 k += 1
                 sortedRaiting.append({"users":[i.get("login")],"lvl":i.get("lvl")})
+        if (addBeforeAfter):
+            return(self.getBeforeAfter(sortedRaiting))
         return(sortedRaiting)
+    def getBeforeAfter(self, raiting):
+        k = 0
+        for i in raiting:
+            k += len(i.get("users"))
+        before = 0
+        after = k
+        for i in range(0, len(raiting)):
+            usersHere = len(raiting[i].get("users"))
+            raiting[i].update({"before":before, "after":after - usersHere})
+            before += len(raiting[i].get("users"))
+            after = after - usersHere
+        return(raiting)

@@ -1,35 +1,47 @@
 [
     {
+        "after": 568,
+        "before": 0,
         "lvl": 4.14,
         "users": [
             "nkertzma"
         ]
     },
     {
+        "after": 567,
+        "before": 1,
         "lvl": 3.66,
         "users": [
             "rrhaenys"
         ]
     },
     {
+        "after": 566,
+        "before": 2,
         "lvl": 3.64,
         "users": [
             "trhogoro"
         ]
     },
     {
+        "after": 565,
+        "before": 3,
         "lvl": 3.52,
         "users": [
             "rgyles"
         ]
     },
     {
+        "after": 564,
+        "before": 4,
         "lvl": 3.5,
         "users": [
             "kcarrot"
         ]
     },
     {
+        "after": 562,
+        "before": 5,
         "lvl": 3.49,
         "users": [
             "dmorgil",
@@ -37,12 +49,16 @@
         ]
     },
     {
+        "after": 561,
+        "before": 7,
         "lvl": 3.47,
         "users": [
             "mnarbert"
         ]
     },
     {
+        "after": 546,
+        "before": 8,
         "lvl": 2.91,
         "users": [
             "narchiba",
@@ -63,12 +79,16 @@
         ]
     },
     {
+        "after": 545,
+        "before": 23,
         "lvl": 2.9,
         "users": [
             "gkessler"
         ]
     },
     {
+        "after": 540,
+        "before": 24,
         "lvl": 2.89,
         "users": [
             "bbaelor-",
@@ -79,6 +99,8 @@
         ]
     },
     {
+        "after": 533,
+        "before": 29,
         "lvl": 2.88,
         "users": [
             "ghazrak-",
@@ -91,6 +113,8 @@
         ]
     },
     {
+        "after": 526,
+        "before": 36,
         "lvl": 2.87,
         "users": [
             "emeha",
@@ -103,6 +127,8 @@
         ]
     },
     {
+        "after": 519,
+        "before": 43,
         "lvl": 2.86,
         "users": [
             "mskiles",
@@ -115,6 +141,8 @@
         ]
     },
     {
+        "after": 513,
+        "before": 50,
         "lvl": 2.84,
         "users": [
             "jroelle",
@@ -126,6 +154,8 @@
         ]
     },
     {
+        "after": 510,
+        "before": 56,
         "lvl": 2.82,
         "users": [
             "mraynor",
@@ -134,42 +164,56 @@
         ]
     },
     {
+        "after": 509,
+        "before": 59,
         "lvl": 2.8,
         "users": [
             "daharwoo"
         ]
     },
     {
+        "after": 508,
+        "before": 60,
         "lvl": 2.77,
         "users": [
             "afalmer-"
         ]
     },
     {
+        "after": 507,
+        "before": 61,
         "lvl": 2.74,
         "users": [
             "wlister"
         ]
     },
     {
+        "after": 506,
+        "before": 62,
         "lvl": 2.71,
         "users": [
             "vrestles"
         ]
     },
     {
+        "after": 505,
+        "before": 63,
         "lvl": 2.7,
         "users": [
             "ttreutel"
         ]
     },
     {
+        "after": 504,
+        "before": 64,
         "lvl": 2.69,
         "users": [
             "ajon-hol"
         ]
     },
     {
+        "after": 502,
+        "before": 65,
         "lvl": 2.68,
         "users": [
             "fkuhn",
@@ -177,24 +221,32 @@
         ]
     },
     {
+        "after": 501,
+        "before": 67,
         "lvl": 2.66,
         "users": [
             "rtroll"
         ]
     },
     {
+        "after": 500,
+        "before": 68,
         "lvl": 2.62,
         "users": [
             "jdesmond"
         ]
     },
     {
+        "after": 499,
+        "before": 69,
         "lvl": 2.6,
         "users": [
             "drestles"
         ]
     },
     {
+        "after": 478,
+        "before": 70,
         "lvl": 2.22,
         "users": [
             "jcorwin",
@@ -221,12 +273,16 @@
         ]
     },
     {
+        "after": 477,
+        "before": 91,
         "lvl": 2.21,
         "users": [
             "fratke"
         ]
     },
     {
+        "after": 459,
+        "before": 92,
         "lvl": 2.2,
         "users": [
             "srolland",
@@ -250,6 +306,8 @@
         ]
     },
     {
+        "after": 456,
+        "before": 110,
         "lvl": 2.19,
         "users": [
             "fbhakaz-",
@@ -258,6 +316,8 @@
         ]
     },
     {
+        "after": 449,
+        "before": 113,
         "lvl": 2.18,
         "users": [
             "mnienow",
@@ -270,6 +330,8 @@
         ]
     },
     {
+        "after": 436,
+        "before": 120,
         "lvl": 2.17,
         "users": [
             "kfalia-f",
@@ -288,6 +350,8 @@
         ]
     },
     {
+        "after": 431,
+        "before": 133,
         "lvl": 2.16,
         "users": [
             "gmors-um",
@@ -298,6 +362,8 @@
         ]
     },
     {
+        "after": 426,
+        "before": 138,
         "lvl": 2.15,
         "users": [
             "krakharo",
@@ -308,6 +374,8 @@
         ]
     },
     {
+        "after": 423,
+        "before": 143,
         "lvl": 2.14,
         "users": [
             "rymuller",
@@ -316,6 +384,8 @@
         ]
     },
     {
+        "after": 420,
+        "before": 146,
         "lvl": 2.13,
         "users": [
             "kschroed",
@@ -324,18 +394,24 @@
         ]
     },
     {
+        "after": 419,
+        "before": 149,
         "lvl": 2.12,
         "users": [
             "ksnow-be"
         ]
     },
     {
+        "after": 418,
+        "before": 150,
         "lvl": 2.11,
         "users": [
             "rwalder-"
         ]
     },
     {
+        "after": 415,
+        "before": 151,
         "lvl": 2.1,
         "users": [
             "hgreenfe",
@@ -344,12 +420,16 @@
         ]
     },
     {
+        "after": 414,
+        "before": 154,
         "lvl": 2.09,
         "users": [
             "kmeera-r"
         ]
     },
     {
+        "after": 412,
+        "before": 155,
         "lvl": 2.08,
         "users": [
             "jwillem-",
@@ -357,12 +437,16 @@
         ]
     },
     {
+        "after": 411,
+        "before": 157,
         "lvl": 2.07,
         "users": [
             "zcadwyl"
         ]
     },
     {
+        "after": 407,
+        "before": 158,
         "lvl": 2.05,
         "users": [
             "dkyle",
@@ -372,36 +456,48 @@
         ]
     },
     {
+        "after": 406,
+        "before": 162,
         "lvl": 2.02,
         "users": [
             "efeeney"
         ]
     },
     {
+        "after": 405,
+        "before": 163,
         "lvl": 2.0,
         "users": [
             "crice"
         ]
     },
     {
+        "after": 404,
+        "before": 164,
         "lvl": 1.97,
         "users": [
             "cmelara-"
         ]
     },
     {
+        "after": 403,
+        "before": 165,
         "lvl": 1.94,
         "users": [
             "jschmele"
         ]
     },
     {
+        "after": 402,
+        "before": 166,
         "lvl": 1.92,
         "users": [
             "htorp"
         ]
     },
     {
+        "after": 354,
+        "before": 167,
         "lvl": 1.28,
         "users": [
             "jsanford",
@@ -455,6 +551,8 @@
         ]
     },
     {
+        "after": 328,
+        "before": 215,
         "lvl": 1.26,
         "users": [
             "lnolan",
@@ -486,6 +584,8 @@
         ]
     },
     {
+        "after": 295,
+        "before": 241,
         "lvl": 1.25,
         "users": [
             "jphilip-",
@@ -501,6 +601,7 @@
             "ntothmur",
             "srobert-",
             "jbashiri",
+            "kkuvalis",
             "idunaver",
             "wqarro-v",
             "bgorghan",
@@ -523,6 +624,8 @@
         ]
     },
     {
+        "after": 274,
+        "before": 274,
         "lvl": 1.24,
         "users": [
             "hrickard",
@@ -549,6 +652,8 @@
         ]
     },
     {
+        "after": 260,
+        "before": 295,
         "lvl": 1.23,
         "users": [
             "ohelly",
@@ -568,6 +673,8 @@
         ]
     },
     {
+        "after": 252,
+        "before": 309,
         "lvl": 1.21,
         "users": [
             "jhaag",
@@ -576,10 +683,13 @@
             "ehaggon",
             "urhaegar",
             "rfalmer-",
+            "hmann",
             "gorange-"
         ]
     },
     {
+        "after": 249,
+        "before": 317,
         "lvl": 1.19,
         "users": [
             "ccolemon",
@@ -588,6 +698,8 @@
         ]
     },
     {
+        "after": 247,
+        "before": 320,
         "lvl": 1.18,
         "users": [
             "dtoy",
@@ -595,6 +707,8 @@
         ]
     },
     {
+        "after": 244,
+        "before": 322,
         "lvl": 1.17,
         "users": [
             "cnella",
@@ -603,6 +717,8 @@
         ]
     },
     {
+        "after": 242,
+        "before": 325,
         "lvl": 1.16,
         "users": [
             "lbrown-b",
@@ -610,6 +726,8 @@
         ]
     },
     {
+        "after": 240,
+        "before": 327,
         "lvl": 1.14,
         "users": [
             "tdontos-",
@@ -617,24 +735,32 @@
         ]
     },
     {
+        "after": 239,
+        "before": 329,
         "lvl": 1.12,
         "users": [
             "vminisa-"
         ]
     },
     {
+        "after": 238,
+        "before": 330,
         "lvl": 1.11,
         "users": [
             "astanton"
         ]
     },
     {
+        "after": 237,
+        "before": 331,
         "lvl": 1.1,
         "users": [
             "gwaymar-"
         ]
     },
     {
+        "after": 229,
+        "before": 332,
         "lvl": 1.09,
         "users": [
             "kbethany",
@@ -648,12 +774,16 @@
         ]
     },
     {
+        "after": 228,
+        "before": 340,
         "lvl": 1.07,
         "users": [
             "idamore"
         ]
     },
     {
+        "after": 226,
+        "before": 341,
         "lvl": 1.06,
         "users": [
             "hstolten",
@@ -661,6 +791,8 @@
         ]
     },
     {
+        "after": 224,
+        "before": 343,
         "lvl": 1.04,
         "users": [
             "bdudley",
@@ -668,24 +800,32 @@
         ]
     },
     {
+        "after": 223,
+        "before": 345,
         "lvl": 1.02,
         "users": [
             "ldonnor-"
         ]
     },
     {
+        "after": 222,
+        "before": 346,
         "lvl": 1.01,
         "users": [
             "btorp"
         ]
     },
     {
+        "after": 221,
+        "before": 347,
         "lvl": 1.0,
         "users": [
             "mlurker"
         ]
     },
     {
+        "after": 219,
+        "before": 348,
         "lvl": 0.97,
         "users": [
             "hkuhic",
@@ -693,6 +833,8 @@
         ]
     },
     {
+        "after": 34,
+        "before": 350,
         "lvl": 0.22,
         "users": [
             "kbatz",
@@ -763,7 +905,6 @@
             "pcorlys-",
             "sstark",
             "saemon-b",
-            "kkuvalis",
             "uhand",
             "dwalda-r",
             "nsabre-c",
@@ -861,7 +1002,6 @@
             "gquence",
             "dmelessa",
             "dhorker",
-            "hmann",
             "eharrag-",
             "thagrave",
             "gwolf",
@@ -885,6 +1025,8 @@
         ]
     },
     {
+        "after": 0,
+        "before": 535,
         "lvl": 0.0,
         "users": [
             "spenny",

@@ -10,19 +10,6 @@ tokenfd.close()
 vk_session = vk_api.VkApi(login=None, password=None, token=token)
 vk = vk_session.get_api()
 
-def getBeforeAfter(raiting):
-    k = 0
-    for i in raiting:
-        k += len(i.get("users"))
-    before = 0
-    after = k
-    for i in range(0, len(raiting)):
-        usersHere = len(raiting[i].get("users"))
-        raiting[i].update({"before":before, "after":after - usersHere})
-        before += len(raiting[i].get("users"))
-        after = after - usersHere
-    return(raiting)
-
 def getUsers():
     fd = open("moscow.json", 'r')
     users = json.load(fd)
@@ -40,9 +27,8 @@ def findLogin(login, users):
     return("Проверь правильность написания логина")
 longpoll = VkLongPoll(vk_session)
 users = getUsers()
-users = getBeforeAfter(users)
 for event in longpoll.listen():
-    if event.type == VkEventType.MESSAGE_NEW and event.from_chat and event.text and "!рейтинг" in event.text.split()[0].lower():
+    if event.type == VkEventType.MESSAGE_NEW and event.from_chat and event.text and event.text.split()[0].lower() == "!рейтинг":
         try:
             login = event.text.split()[1].lower()
             if login != "vice-wra":
