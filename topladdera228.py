@@ -19,9 +19,17 @@ def findLogin(login, users):
     k = 0
     for i in users:
         if login in i.get("users"):
-            howMuchUsers = "\nделит место с %s людьми"%str(len(i.get("users")) - 1)
-            answer = "%s:\n%s в общем рейтинге с %s уровнем,"%(login, str(k), str(round(i.get("lvl"), 2))) + howMuchUsers
-            answer += "\nПеред: %s\nПосле: %s"%(str(i.get("before")), str(i.get("after")))
+            allGuys = i.get("before") + i.get("after") + len(i.get("users"))
+            before = str(round(100 * (i.get("before")) / allGuys , 2))
+            after = str(round(100 * i.get("after")/ allGuys, 2))
+            howMuchUsers = str(round(100 * len(i.get("users")) / allGuys, 2))
+            howMuchUsers =  howMuchUsers + "%"
+            answer = "%s: lvl %s\n"%(login, str(round(i.get("lvl"), 2)))
+            place = str(k + 1) + '/' + str(len(users))
+            answer +="place: %s with %s users\n" %(place, howMuchUsers)
+            answer += "higher than %s users\nlower than %s users"%(after + "%",before + "%")
+            if k == 0:
+                answer = "THE BOSS OF THE GYM!\n" + answer + "\nTHE BOSS OF THE GYM!"
             return(answer)
         k+=1
     return("Проверь правильность написания логина")
